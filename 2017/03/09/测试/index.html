@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="亚农在 Github 上的个人博客">
+    <meta name="keyword" content="null">
+    <meta name="theme-color" content="#600090">
+    <meta name="msapplication-navbutton-color" content="#600090">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
+    <link rel="shortcut icon" href="/image/aa.jpg">
+    <link rel="alternate" type="application/atom+xml" title="Yanong" href="/atom.xml">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
+    <title>
+        
+        测试｜Yanong&#39;s blog
+        
+    </title>
+
+    <link rel="canonical" href="http://yoursite.com/2017/03/09/测试/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/blog-style.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+</head>
+
+<style>
+
+    header.intro-header {
+        background-image: url('/image/aa.jpg')
+    }
+</style>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="" class="animated fadeIn">
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "true" data-istags="false
+" data-ishome = "false" >
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand animated pulse" href="/">
+                <span class="brand-logo">
+                    Yanong
+                </span>
+                's Blog
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <!-- /.navbar-collapse -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+					
+                    
+					
+					
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+//    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+<!-- Main Content -->
+
+<!--only post-->
+
+
+<img class="wechat-title-img"
+     src="">
+
+
+<style>
+    
+    header.intro-header {
+        background-image: url('')
+    }
+
+    
+</style>
+
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <div class="post-heading">
+                    <h1>测试</h1>
+                    
+                    <span class="meta">
+                         作者 Hans Heyanong
+                        <span>
+                          日期 2017-03-09
+                         </span>
+                    </span>
+                    <div class="tags text-center">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="post-title-haojen">
+        <span>
+            测试
+        </span>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Container -->
+            <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
+                <p><img src="/2017/03/09/测试/1.jpg" alt="img"></p>
+<h2 id="质量标准的意义"><a href="#质量标准的意义" class="headerlink" title="质量标准的意义"></a>质量标准的意义</h2><hr>
+<p>做产品，当然要有质量标准。否则产品质量到底做到什么水平才可以上市？ 然而，质量标准怎么定？却有很多的考量。因为这个标准，从来不是从测试团队的角度来考虑，也不是从开发设计团队来考虑的，而是从产品发布的经营风险来考虑的。也就是说，产品发出去了，到底能否获得用户的喜欢和认可，是否能够获得理想的市场销售结果，是否在成本和利润上能让投资人满意？这些看似是发货决策者才会关注的问题，反而是标准制定过程中，技术团队们需要牢记在心的。只有这样，各种技术指标才会更为合理。</p>
+<p>一个典型的情况就是，如果质量标准过于严苛，导致研发成本，制造成本大幅度上升，或者上市周期大幅度延后，这样的问题是发货决策时无法接受的。但是反过来说，类似三星Note 7电池爆炸那样的事故，由于赶货期而降低标准发布，最终导致市场出现严重问题的情况，也是发货决策者们难以接受的。因此还是要把话说回来，质量标准制定过程，各种技术指标要充分考虑发货经营风险，也就是说技术专家们要站在比自己的位置更高的视角来考虑问题，才会取得较好的效果。</p>
+<h2 id="标准的制订"><a href="#标准的制订" class="headerlink" title="标准的制订"></a>标准的制订</h2><p>质量标准的制定，依据不同的领域，不同的特性，不一而足。比如硬件可靠性标准，比如跌落试验，会将跌落次数，距离，跌落角度，表面材质，具体操作手法都定义的非常清楚。然而软件性能等标准，却可能是以benchmark软件为基础，根据跑分来制定标准；而通信等特性则又需要大数据分析来支撑标准制定。因此，具体领域的标准差异很大，指标也会差异很大，没法一一详述。</p>
+<p>但是有一些基本原则却是相同的，可以一开始就想清楚，避免事倍功半，反复折腾。</p>
+<p>第一个问题是：这个质量标准到底代表哪些用户？这些用户有哪些价值要求？ 有哪些风险？我们应该根据这些分析，建立价值模型，风险模型。来确定用什么样的一些检测项目，可以检测出来。比如说不同年龄、不同性别的用户，会有不同诉求。不同国家用户会有不同诉求，不同的行业应用，也会有非常大的不同。因此考虑清楚哪些用户诉求必须坚持，哪些可以妥协。</p>
+<p>第二个问题是：用户都是人，其评价都是主观的，心理的。这导致了评价标准不好量化，也不好标准化。因此，必须拆解出一些客观标准，通过客观评测来评价质量。但是，这里主观和客观要想统一起来，是非常难的。需要仔细斟酌。比如视频相关的标准，主观上来看就是清晰，流畅等等指标。但是分解成客观标准，就会使每秒钟多少帧数据？ 分辨率多少？然而，拿多少帧来说，一开始研究时根据电影每秒24帧就可以骗过眼睛，感觉到是连续的画面。但是后来意识到屏幕刷新率实际上要做到每秒60帧，才能让人感受不到卡顿。然而，如果真的想做到人察觉不出来，目前看得120帧每秒，这在李安导演的新电影里面有所尝试。第二，拿分辨率这个问题来说，和眼睛距离屏幕的距离颇有关系。iPhone最早提出的视网膜概念，早期看起来好像非常好，但是在之后几年大幅度刷新，说明了要想真的让人眼看不出分辨率问题也并非易事。这里还没有考虑有的人视力就是好（听说非洲的马赛族猎手视力达到8.0，完爆各种视力表）。因此标准制定要想真的用客观标准拟合主观体验，需要考虑很多的因素，做很多的实验，并在给定的场景下，给定的约束条件下，才会比较有意义。</p>
+<p>第三个问题是，试验和数据要解决三个问题：可重复，公平，严酷（可以区分产品差距）。因此，实验设计必须考究。比如说GPS的定位成功率、定位时长指标，乍一看可以在固定地点随时来做，可重复应该性比较好。但是GPS的卫星在任意时刻的数量，角度，方位都是有差异的。进而，不同的天气情况，比如说雾霾，对于GPS信号的影响也不容小看。因此户外测试的可重复性就非常值得仔细考量。而不同设备怎么摆放才能保证信号来源是公平的？也是GPS户外测试的一个重点。因此最初的实验设计，和最终的设计结果可能会有很大的区别。很多妥协，很多无奈。而对于服务器，电信设备等，常常有24*7不能崩溃，在面临大规模恶意攻击的时候能够一定程度的保留服务能力，并可以自恢复。这种产品的实验严酷程度，实验组网，实验数据组织等也都是非常关键的。</p>
+<p>第四个问题是，到底是以用户实际使用的感受来定标准，还是以极端情况的使用感受来评价？以4G通话为例，当4G信号覆盖已经非常好了之后，似乎用户很少会遇到通话问题，那么是否可以按照用户遇到问题的概率来评价质量？这样也许用户一年下来遇到问题的概率只有0.01%，看起来用户体验应该还不错？但是要反过来想，用户遇到问题的时候，比如在自己家里信号不太好，那么如果这个手机正好质量也不太行，那么他遇到通话问题的概率就可能一下子飙升到百分之几十。此时的用户感受只能用很差来形容了。因此质量标准，应该对于到底什么时候质量会无法接受，尤其是无法比拼过标杆，要有清晰的评价。</p>
+<p>第五个问题是：不同特性之间的妥协。比如说功耗和性能，几乎永远会互相冲突。散热和性能，八成也总是会打架。而缩小硬件体积和性能提升，也会有永远说不完的问题。因此标准制定过程中，需要仔细考量遇到冲突了，到底牺牲哪一边？换句话说哪个更重要？ 但是参见笔者的文章“当下和未来的桥梁”，这种取舍，绝对是要先提升自己的水平，境界，以及对用户的理解，才能达到最高水平，来做出更合理的取舍的。</p>
+<p>第六个问题：绝对标准还是相对标准？ 这个问题也很有意思。但是结合主观客观的话题，就会意识到，绝对的测量标准，非常有问题。第一，很难确定到底定成什么样用户体验就好了。第二，用户体验要求经常是逐年提高的，因此绝对标准如果长期不更新，脱离了现实，反而可能会拖累产品。因此，相对的标准（也就是标杆对比）会更好一些。但是选择合适的标杆也是一个很大的坑。而且，标杆如果表现很差，是否就代表我们产品也可以表现很差呢？显然不能，因此合理的做法是，用相对标准来检验，但是用绝对标准来保底，避免最终结果差于某个门限。</p>
+<p>第七个问题：静态检测还是动态检测？ 对于有些特性来说，比如通信，GPS定位等来说，静态检测是否能够替代动态检测呢？显然不可以。因为用户就是动态使用的，而且用户使用过程中动态的体验，以及问题，可能远远重要于静态体验。因此并不能替代，而是两者结合，都要做。</p>
+<h1 id="标准的执行"><a href="#标准的执行" class="headerlink" title="标准的执行"></a>标准的执行</h1><p>制定难，但是执行起来更不容易。</p>
+<p>标准要足够清晰，什么时候过，什么时候不过，都足够清晰。这样执行标准的人员，才能当起铁面无私的判官，和具体开发设计人员沟通起来，不会因为数据含混不清，而左右为难。</p>
+<blockquote>
+<p>公平，严酷，可重复的的评价体系，对应的往往是配套的工具，自动化体系。因为人工很难达到非常好的一致性，可重复性，在人工执行的时代，评测结果时常首到质疑，受到挑战，返工的成本也很高。因此成熟的组织会逐步使用工具，自动化来替代人工执行，评价。而这背后的开发设计投入，是要充分考虑的。</p>
+<p>不同的产品，比如平台首款，和衍生产品在标准执行上有什么区别？ 是否衍生产品要求会更高？是否衍生产品要缩减检测工作量，只抽检一些关键指标？</p>
+</blockquote>
+<p>标杆的选择也是很讲究的。常见的坑至少有4个：1、我们的芯片和器件决定了，我们只能用XX产品作为标杆。但是我们第一不能确定标杆就会有好的销售，第二是我们上市必然比标杆晚，我们是否还可以用同样的质量标准来考虑？用户可不一定同意。2、XX特性用标杆1，YY特性用标杆2，ZZ特性用标杆3，如此来看是否每一个特性都要做到最好？  3、万年不变的标杆，连续几年都用一个。而且不管低端高端全都用这个  4、低端产品成本低，是否就应该可以降低标杆要求？</p>
+<p>标准检测出问题，无法通过。当然设计团队会很难受，会有心理的抵触。但是一般来说，大家对于问题对于产品上市的影响还是能够理解的。只是工作压力那么大，大家通常希望的是能能够快速解决问题。不要发现问题无法解决，而无法解决才是大家难以接受的。因此，标准一个是要早，制定在设计阶段的标准，显然要好于做成了之后的检测标准。进而，检测出的问题，最好是必然出现的，是容易定位的，是有清晰的解决思路的，这样的问题，才有助于大家快速解决。</p>
+<h1 id="争议-amp-提高"><a href="#争议-amp-提高" class="headerlink" title="争议&amp;提高"></a>争议&amp;提高</h1><p>产品总是变化的，不论是产品规格，还是应用场景。因此标准难免出现与现实脱节的情况，或者解释不清的情况。那么，标准的争议出现后，还执行不执行呢？为了避免执行人员的尴尬，应该在标准出现争议后，在标准修改之前，先按照当前规定执行。并同步提交标准修改团队修改。这样可以避免具体执行人员之间争议无法平息。因为产品开发，真正重要的不是一两个问题该改还是不该改。而是是否有一致的评价体系，能够以较低的成本来执行这个评价体系。因此，仅仅因为一两个争议，而导致评价体系崩塌，没人遵循，是得不偿失的。</p>
+<p>但是这里还有个反过来的问题。那就是团队建立了各方各面的完善的标准体系后，产品质量有了很好的保障，不会轻易出现质量问题。但是一旦市场环境变化，市场对产品质量的诉求发生变化，就会出现船大难掉头，影响产品研发效率的情况。比如说在功能手机时代，手机产品建立的一套质量体系，在智能机时代到来后，对于智能机就会有一定程度的副作用。比如机械可靠性标准偏高，难以达标；而部分性能标准又偏低，无法衡量产品质量。此时修订标准体系，以及对应的执行体系，非常耗时耗力。更可怕的是制定标准的一批高水平人才已经不在从事这个事情了之后，再重建标准体系，是一个非常不容易的事情，需要有大决心，大智慧才能做成。</p>
+<p>最后一点想分享的是，标准其实是个大杂烩，是多个团队互相博弈的结果，也是主观客观，可执行性等多种方面权衡的结果。因此，符合标准不代表最高水平，仅仅代表达到了某种门槛的水平。因此真正立志要做最好的产品的人，要有自己的追求。产品设计要有killer特性，各个功能团队要冲一开始就要为Killer特性的高水平交付保驾护航。与此同时，其它特性也要做到足够好，而不是一般般。达到这种水平的产品，才能真正俘获用户的心。但是还不够，体验要逐年提高，能够和用户讲清楚，每一代产品比上一代产品优化了百分之多少，这样用户就会看到产品的进步，感受到产品的用心，产生进一步的认同感。只有这样，才能真正做出长盛不衰的高水平产品。</p>
+<p>——————素材——————<br>最近做的通讯性能kpi测试,让我感受到一点,每一个数据都需要精雕细琢,反复确认,确认他是否确实有效,确认他是否能够重复,确认他是否能够推导出合理的结论,只有结论正确的时候,前面做的一切工作才会有意义。<br>这不就是大科学家工作的那种态度和氛围吗?<br> 精益求精,精雕细琢,要的就是这种精神。<br>只有在这种情况下,长期的积累时候,人和人之间才会看到差距。<br>​<br>测试数据要同时出结论，结论要让自己信服要，不要无逻辑，不要不可重复</p>
+<p>可执行性<br>可操作性</p>
+
+                <hr>
+                
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2017/03/10/当我们谈质量标准的时候，我们在谈什么/" data-toggle="tooltip" data-placement="top"
+                           title="当我们谈质量标准的时候，我们在谈什么?">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2017/03/07/hello-world/" data-toggle="tooltip" data-placement="top"
+                           title="Hello World">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                
+
+                
+
+            </div>
+
+            <div class="hidden-xs col-sm-3 toc-col">
+                <div class="toc-wrap">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#质量标准的意义"><span class="toc-text">质量标准的意义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#标准的制订"><span class="toc-text">标准的制订</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#标准的执行"><span class="toc-text">标准的执行</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#争议-amp-提高"><span class="toc-text">争议&提高</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Sidebar Container -->
+
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+
+    </div>
+</article>
+
+
+
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <br>
+                <ul class="list-inline text-center">
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Yanong 2017
+                    <br>
+                    <span id="busuanzi_container_site_pv" style="font-size: 12px;">PV: <span id="busuanzi_value_site_pv"></span> Times</span>
+                    <br>
+                    Theme by <a href="https://haojen.github.io/">Haojen Ma</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/blog.js"></script>
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("http://yoursite.com/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+<!-- swiftype -->
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install','undefined','2.0.0');
+</script>
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!--wechat title img-->
+<img class="wechat-title-img" src="/image/aa.jpg">
+</body>
+
+</html>
